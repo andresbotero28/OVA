@@ -1,0 +1,85 @@
+/*font-family: 'Alegreya', serif;*/
+
+/*font-family: 'Libre Franklin', sans-serif;*/
+
+#contenidos {
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	/*background: lightblue;*/
+}
+
+/*etiquetas*/
+/*da el comportamiento del fondo de toda la pagina*/
+body {
+background-image: url(../img/im1.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+/* caracteristicas del texto, color, tamaño y fuente*/
+h1{
+font-family: 'Libre Franklin', sans-serif;
+/*color: white;*/
+margin-left: 10px;
+font-size: 30px;
+text-align: center;
+}
+
+h2{
+margin-left: 10px;
+font-size: 30px;
+text-align: center;
+}
+/* fondo de la cabecera*/
+header{
+	width: 1000px;
+	height: 150px;
+	background: rgba(255,255,255,0,50);
+	background-image: url(../img/unad.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+/* fundo donde se encuentra el texto*/
+nav{
+
+width: 1000px;
+height: 70px;
+background: darkcyan;
+border-radius: 10px;
+
+
+}
+
+ul{
+	margin: auto;
+	padding-top: 5px;
+}
+/*caracteristicas del texto de menu  se debe poner un color si se quiere diferenciar*/
+li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px white inset;
+
+}
+
+/*clases*/
+
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970;}
+
+.menu:link{color: white; text-decoration: none;}
+.menu:visited { color: white; text-decoration: none;}
+.menu:hover{ color: white; text-decoration: none; }
+.menu:active{padding: 7px; color: white; text-decoration: none;}
+
+/*seudo clase*/
+
+li:hover{
+	background: blue;
+	box-shadow:  0 0 10px white inset;
+
+
+}
