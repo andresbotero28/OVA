@@ -21,7 +21,7 @@ background-size: cover;
 h1{
 font-family: 'Libre Franklin', sans-serif;
 /*color: white;*/
-margin-left: 10px;
+margin-left: 20px;
 font-size: 30px;
 text-align: center;
 }
@@ -34,7 +34,7 @@ text-align: center;
 /* fondo de la cabecera*/
 header{
 	width: 1000px;
-	height: 150px;
+	height: 200px;
 	background: rgba(255,255,255,0,50);
 	background-image: url(../img/Logo_unad.png);
 	background-repeat: no-repeat;
@@ -90,7 +90,6 @@ aside{
 footer{
 width: 1000px;
 height: 115px;
-background: ;
 background-image: url(../img/Logoho.png);
 background-repeat: no-repeat;
 background-position: right;
