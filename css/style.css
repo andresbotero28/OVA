@@ -34,7 +34,7 @@ text-align: center;
 /* fondo de la cabecera*/
 header{
 	width: 1000px;
-	height: 200px;
+	height: 250px;
 	background: rgba(255,255,255,0,50);
 	background-image: url(../img/Logo_unad.png);
 	background-repeat: no-repeat;
