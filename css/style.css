@@ -33,6 +33,13 @@ margin-left: 10px;
 font-size: 30px;
 text-align: center;
 }
+h3{
+	font-family: 'Libre+Franklin';
+margin-left: 10px;
+font-size: 15px;
+text-align: left;
+}
+
 h4{
 	font-family: 'Libre+Franklin';
 	color: #000;
@@ -112,8 +119,8 @@ aside{
 footer{
 font-family: 'Libre Franklin', sans-serif;
 width: 1000px;
-height: 150px;
-background-image: url(https://estudios.unad.edu.co/templates/unad2015/images/logoUNAD2015.png) ;
+height: 100px;
+background-image: url(../img/logos_calidad.png) ;
 background-repeat: no-repeat;
 background-position: right;
 float: left;
