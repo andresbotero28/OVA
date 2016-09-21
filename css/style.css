@@ -19,18 +19,32 @@ background-size: cover;
 }
 /* caracteristicas del texto, color, tamaño y fuente*/
 h1{
-font-family: 'Libre Franklin', sans-serif;
+font-family: 'Libre+Franklin';
 /*color: white;*/
 margin-left: 20px;
 font-size: 30px;
 text-align: center;
+
 }
 
 h2{
+	font-family: 'Libre+Franklin';
 margin-left: 10px;
 font-size: 30px;
 text-align: center;
 }
+h4{
+	font-family: 'Libre+Franklin';
+	color: #000;
+	font-size: 15px;
+	text-align: justify; 
+	margin-top: 190px; 
+	font-weight: bolder;
+	line-height: 24px;
+	padding: 12px;
+	
+}	
+
 /* fondo de la cabecera*/
 header{
 	width: 1000px;
@@ -38,7 +52,8 @@ header{
 	background: rgba(255,255,255,0,50);
 	background-image: url(../img/Logo_unad.png);
 	background-repeat: no-repeat;
-	background-position: right;
+	background-position: center margin-top;
+
 }
 /* fundo donde se encuentra el texto*/
 nav{
@@ -68,16 +83,19 @@ li{
 }
 
 section{
-	font-family: 'Libre Franklin', sans-serif;
+	font-family: 'Libre+Franklin';
 	width: 700px;
 	background: rgb(0,102,128);
 	height: 600px;
 	float: left;
 	margin-top: 20px;
 	border-radius: 10px;
+	text-align: justify;
+
+
+	
 }
 aside{
-font-family: 'Libre Franklin', sans-serif;
 	width: 280px;
 	background: rgb(0,102,128);
 	height: 600px;
@@ -85,6 +103,12 @@ font-family: 'Libre Franklin', sans-serif;
 	margin-left: 20px;
 	margin-top: 20px;
 	border-radius: 10px;
+	background-image: url(../img/torvalds.jpg); 
+	background-position: center top;
+	background-repeat: no-repeat;
+	align: bottom;
+
+
 }
 
 footer{
@@ -106,7 +130,7 @@ p{
 	font-weight: bolder;
 	line-height: 24px;
 	padding: 10px;
-	text-align: initial;
+	text-align: justify;
 }
 
 
@@ -120,8 +144,8 @@ p{
 .menu:link{color: white; text-decoration: none;}
 .menu:visited { color: white; text-decoration: none;}
 .menu:hover{ color: white; text-decoration: none; }
-.menu:active{padding: 7px; color: white; text-decoration: none;}
-.menu:active {padding-left:100px;}
+.menu:active{color: white; text-decoration: none;}
+
 
 .logo {
   display: block;
