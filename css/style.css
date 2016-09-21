@@ -112,6 +112,8 @@ p{
 
 /*clases*/
 
+
+
 .ancho_menu_home{width: 900px;}
 .ancho_menu_paginas{width: 970;}
 
@@ -120,6 +122,17 @@ p{
 .menu:hover{ color: white; text-decoration: none; }
 .menu:active{padding: 7px; color: white; text-decoration: none;}
 .menu:active {padding-left:100px;}
+
+.logo {
+  display: block;
+  text-indent: -9999px;
+  width: 700px;
+  height: 200px;
+  background: url(../img/Tux.svg);
+  background-size: 300px 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 
 /*seudo clase*/
