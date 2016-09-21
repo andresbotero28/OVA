@@ -23,7 +23,7 @@ font-family: 'Libre+Franklin';
 /*color: white;*/
 margin-left: 20px;
 font-size: 30px;
-text-align: center;
+text-align: left;
 
 }
 
@@ -48,11 +48,11 @@ h4{
 /* fondo de la cabecera*/
 header{
 	width: 1000px;
-	height: 250px;
+	height: 200px;
 	background: rgba(255,255,255,0,50);
 	background-image: url(../img/Logo_unad.png);
 	background-repeat: no-repeat;
-	background-position: center margin-top;
+	background-position: right; margin-top;
 
 }
 /* fundo donde se encuentra el texto*/
@@ -62,15 +62,13 @@ width: 1000px;
 height: 70px;
 background: rgb(0,102,128);
 border-radius: 10px;
-
-
 }
 
 
 
 ul{
 	margin: auto;
-	padding-top: 5px;
+	padding-top: 10px;
 }
 /*caracteristicas del texto de menu  se debe poner un color si se quiere diferenciar*/
 li{
@@ -103,7 +101,7 @@ aside{
 	margin-left: 20px;
 	margin-top: 20px;
 	border-radius: 10px;
-	background-image: url(../img/torvalds.jpg); 
+	background-image: url(../img/torvalds.png); 
 	background-position: center top;
 	background-repeat: no-repeat;
 	align: bottom;
